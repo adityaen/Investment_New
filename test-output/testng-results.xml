@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Reading value of url from property file ]]>
+    </line>
+    <line>
+      <![CDATA[launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on home signIn Button ]]>
+    </line>
+    <line>
+      <![CDATA[Reading value of mobNum from property file ]]>
+    </line>
+    <line>
+      <![CDATA[Sending mob num ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on signIn Button ]]>
+    </line>
+    <line>
+      <![CDATA[Reading value of password from property file ]]>
+    </line>
+    <line>
+      <![CDATA[Sending password ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on submit button ]]>
+    </line>
+    <line>
+      <![CDATA[Scroll into view]]>
+    </line>
+    <line>
+      <![CDATA[Handling popup ]]>
+    </line>
+    <line>
+      <![CDATA[Ac balance isRs.5,00,000.00]]>
+    </line>
+    <line>
+      <![CDATA[Logging out from neoStox ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on home signIn Button ]]>
+    </line>
+    <line>
+      <![CDATA[Reading value of mobNum from property file ]]>
+    </line>
+    <line>
+      <![CDATA[Sending mob num ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on signIn Button ]]>
+    </line>
+    <line>
+      <![CDATA[Reading value of password from property file ]]>
+    </line>
+    <line>
+      <![CDATA[Sending password ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on submit button ]]>
+    </line>
+    <line>
+      <![CDATA[There is no pop up]]>
+    </line>
+    <line>
+      <![CDATA[Reading value of userName from property file ]]>
+    </line>
+    <line>
+      <![CDATA[taking screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Logging out from neoStox ]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-18T05:33:55 IST" name="Default suite" finished-at="2022-12-18T05:34:25 IST" duration-ms="30224">
+    <groups>
+    </groups>
+    <test started-at="2022-12-18T05:33:55 IST" name="Default test" finished-at="2022-12-18T05:34:25 IST" duration-ms="30224">
+      <class name="neoTestClass.ValidateUserName">
+        <test-method is-config="true" signature="launchNeoStox()[pri:0, instance:neoTestClass.ValidateUserName@550dbc7a]" started-at="2022-12-18T05:33:55 IST" name="launchNeoStox" finished-at="2022-12-18T05:34:02 IST" duration-ms="7095" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading value of url from property file ]]>
+            </line>
+            <line>
+              <![CDATA[launching browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchNeoStox -->
+        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:neoTestClass.ValidateUserName@550dbc7a]" started-at="2022-12-18T05:34:02 IST" name="loginToNeoStox" finished-at="2022-12-18T05:34:12 IST" duration-ms="10413" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on home signIn Button ]]>
+            </line>
+            <line>
+              <![CDATA[Reading value of mobNum from property file ]]>
+            </line>
+            <line>
+              <![CDATA[Sending mob num ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on signIn Button ]]>
+            </line>
+            <line>
+              <![CDATA[Reading value of password from property file ]]>
+            </line>
+            <line>
+              <![CDATA[Sending password ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on submit button ]]>
+            </line>
+            <line>
+              <![CDATA[Scroll into view]]>
+            </line>
+            <line>
+              <![CDATA[Handling popup ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeoStox -->
+        <test-method signature="validateACBalance()[pri:0, instance:neoTestClass.ValidateUserName@550dbc7a]" started-at="2022-12-18T05:34:12 IST" name="validateACBalance" finished-at="2022-12-18T05:34:12 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Ac balance isRs.5,00,000.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateACBalance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:neoTestClass.ValidateUserName@550dbc7a]" started-at="2022-12-18T05:34:12 IST" name="logout" finished-at="2022-12-18T05:34:12 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out from neoStox ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:neoTestClass.ValidateUserName@550dbc7a]" started-at="2022-12-18T05:34:12 IST" name="loginToNeoStox" finished-at="2022-12-18T05:34:20 IST" duration-ms="8027" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on home signIn Button ]]>
+            </line>
+            <line>
+              <![CDATA[Reading value of mobNum from property file ]]>
+            </line>
+            <line>
+              <![CDATA[Sending mob num ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on signIn Button ]]>
+            </line>
+            <line>
+              <![CDATA[Reading value of password from property file ]]>
+            </line>
+            <line>
+              <![CDATA[Sending password ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on submit button ]]>
+            </line>
+            <line>
+              <![CDATA[There is no pop up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeoStox -->
+        <test-method signature="validateUserName()[pri:0, instance:neoTestClass.ValidateUserName@550dbc7a]" started-at="2022-12-18T05:34:20 IST" name="validateUserName" finished-at="2022-12-18T05:34:23 IST" duration-ms="2687" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading value of userName from property file ]]>
+            </line>
+            <line>
+              <![CDATA[taking screenshot]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:neoTestClass.ValidateUserName@550dbc7a]" started-at="2022-12-18T05:34:23 IST" name="logout" finished-at="2022-12-18T05:34:23 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out from neoStox ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:neoTestClass.ValidateUserName@550dbc7a]" started-at="2022-12-18T05:34:23 IST" name="closeApplication" finished-at="2022-12-18T05:34:25 IST" duration-ms="1557" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- neoTestClass.ValidateUserName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
