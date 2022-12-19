@@ -26,5 +26,9 @@ public class Base1 {
 		Reporter.log("closing browser",true);
 		Thread.sleep(1000);
 		driver.close();
+		
+		
+		
+		
 	}
 }
